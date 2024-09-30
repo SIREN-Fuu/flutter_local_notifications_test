@@ -1,1 +1,3 @@
-# flutter_local_notifications_test
+# push_notification_test
+
+A new Flutter project.

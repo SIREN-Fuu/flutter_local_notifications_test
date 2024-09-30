@@ -1,0 +1,131 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "dev",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define=env=development"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "dev y.uno",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define=env=development",
+        "--dart-define=stuffId=y.uno"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "dev y.nakajima",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define=env=development",
+        "--dart-define=stuffId=y.nakajima"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "dev m.shibuya",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define=env=development",
+        "--dart-define=stuffId=m.shibuya"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "profile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "args": [
+        "--dart-define=env=profile"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "release-stg",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": [
+        "--dart-define=env=release-stg"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "release-prd",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "args": [
+        "--dart-define=env=release-prd"
+      ],
+      "console": "debugConsole"
+    },
+    {
+      "name": "dev-LocalSim",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "--dart-define=env=devFromLocal"
+      ],
+      "console": "debugConsole"
+    }
+    // {
+    //   "name": "dev OpenFile",
+    //   "request": "launch",
+    //   "type": "dart",
+    //   "flutterMode": "debug",
+    //   "args": ["--dart-define-from-file=scripts/flavors/dev.json"],
+    //   "console": "debugConsole"
+    // },
+    // {
+    //     "name": "dev-AzureSim",
+    //     "request": "launch",
+    //     "type": "dart",
+    //     "program": "lib/main.dart",
+    //     "flutterMode": "debug",
+    //     "args": [
+    //         "--dart-define-from-file=scripts/flavors/dev_azure.json",
+    //     ],
+    //     "console": "debugConsole"
+    // },
+    // {
+    //   "name": "dev-web",
+    //   "type": "dart",
+    //   "request": "launch",
+    //   "program": "lib/main.dart",
+    //   "args": [
+    //     "--dart-define=env=development",
+    //     // "--flavor=development",
+    //     // "--web-enable-expression-evaluation",
+    //     "-d",
+    //     "chrome",
+    //     "--web-port=8000",
+    //     "--web-browser-flag",
+    //     "--disable-web-security",
+    //   ]
+    // }
+  ]
+}
